@@ -1,132 +1,513 @@
 [
     {
+        "question": "Hello!",
+        "answer": "Hello! How can I assist you today?",
+        "keywords": ["hello", "hi", "greetings", "hey", "salutations"]
+    },
+    {
+        "question": "Good morning!",
+        "answer": "Good morning! How can I help you today?",
+        "keywords": ["good morning", "morning greetings", "morning"]
+    },
+    {
+        "question": "Good afternoon!",
+        "answer": "Good afternoon! What can I do for you?",
+        "keywords": ["good afternoon", "afternoon greetings", "afternoon"]
+    },
+    {
+        "question": "Good evening!",
+        "answer": "Good evening! How may I assist you?",
+        "keywords": ["good evening", "evening greetings", "evening"]
+    },
+    {
+        "question": "How are you?",
+        "answer": "I'm just a program, but I'm here to help you! How can I assist you today?",
+        "keywords": ["how are you", "how's it going", "how do you do", "how are you doing"]
+    },
+    {
+        "question": "What can you do?",
+        "answer": "I can help you with information about our programs, admissions, campus facilities, and more. Just ask!",
+        "keywords": ["what can you do", "capabilities", "services", "functions", "features"]
+    },
+    {
+        "question": "Thank you!",
+        "answer": "You're welcome! If you have any more questions, feel free to ask.",
+        "keywords": ["thank you", "thanks", "appreciate it"]
+    },
+    {
+        "question": "Goodbye!",
+        "answer": "Goodbye! Have a great day! If you need assistance later, feel free to return.",
+        "keywords": ["goodbye", "bye", "see you later", "farewell"]
+    },
+    {
         "question": "What is the status of UGC recognition? Are all programs approved by UGC?",
-        "answer": "The university was established under Uttar Pradesh Act No. 24 of 2016 under Gazette notified by the Government of Uttar Pradesh Vide No 140X(2)/LXXIX-V- 1-1X- 1(Ka)- 25-20XX dated 16 September 20XX.As per the UGC letter dated 27th March 2018, ABC University was established by the Act of State Legislature of Uttar Pradesh as a private university and is empowered to award degrees as specified under section 22 of the UGC Act to the students studying in its main campus in regular mode with the approval of Statutory Bodies/Councils, wherever required."
+        "answer": "The university was established under Uttar Pradesh Act No. 24 of 2016 under Gazette notified by the Government of Uttar Pradesh. As per the UGC letter dated 27th March 2018, ABC University was established by the Act of State Legislature of Uttar Pradesh as a private university and is empowered to award degrees as specified under section 22 of the UGC Act to the students studying in its main campus in regular mode with the approval of Statutory Bodies/Councils, wherever required.",
+        "keywords": ["UGC recognition", "program approval", "degree recognition", "UGC status"]
     },
     {
         "question": "When was ABC University established?",
-        "answer": "ABC University was established in August 2016."
+        "answer": "ABC University was established in August 2016.",
+        "keywords": ["established", "founding date", "ABC University history", "when was ABC University founded"]
     },
     {
         "question": "What is the application form fee?",
-        "answer": "The application form fee for domestic candidates is 1500 INR and for international candidates is 2000 INR. The application fee is non-refundable"
+        "answer": "The application form fee for domestic candidates is 1500 INR and for international candidates is 2000 INR. The application fee is non-refundable.",
+        "keywords": ["application fee", "form fee", "admission fee", "cost of application","admission"]
     },
     {
         "question": "Does the university conduct real-time interactive sessions about the programs?",
-        "answer": "Yes, ABC University regularly hosts Open House sessions, providing an excellent opportunity to explore programs and university."
+        "answer": "Yes, ABC University regularly hosts Open House sessions, providing an excellent opportunity to explore programs and university.",
+        "keywords": ["interactive sessions", "Open House", "program exploration", "live sessions"]
     },
     {
         "question": "Once my admission is confirmed, can I withdraw from it?",
-        "answer": "Yes. ABC University follows the refund policy as laid by UGC. For more information, please refer to the official ABC University. For more information contact administrative office."
+        "answer": "Yes. ABC University follows the refund policy as laid by UGC. For more information, please refer to the official ABC University. For more information contact the administrative office.",
+        "keywords": ["withdraw admission", "refund policy", "admission confirmation", "can I cancel my admission"]
     },
     {
         "question": "Whom do I contact for admission-related queries?",
-        "answer": "For Admission-related queries, you can contact Toll-Free at 1800103XXXX or WhatsApp: at 886030XXXX or contact our admission counsellors at regional offices across the country. For details, please visit Admission Counsellors"
+        "answer": "For admission-related queries, you can contact Toll-Free at 1800103XXXX or WhatsApp: at 886030XXXX or contact our admission counsellors at regional offices across the country. For details, please visit Admission Counsellors.",
+        "keywords": ["admission queries", "contact admission", "admission counsellors", "who to contact for admission"]
     },
     {
         "question": "Does ABC have regional offices for admission information if aspirants want to join from other states?",
-        "answer": "Yes, ABC University has regional offices and representatives across the country to help aspirants."
+        "answer": "Yes, ABC University has regional offices and representatives across the country to help aspirants.",
+        "keywords": ["regional offices", "admission information", "state representatives", "local offices"]
     },
     {
         "question": "What are the various schools at the University?",
-        "answer": "School of Engineering & Applied Science\nSchool of Artificial Intelligence\nSchool of Computer Science Engineering & Technology\nSchool of Liberal Arts\nSchool of Management\nTimes School of Media\nSchool of Law\nSchool of Design"
+        "answer": "School of Engineering & Applied Science\nSchool of Artificial Intelligence\nSchool of Computer Science Engineering & Technology\nSchool of Liberal Arts\nSchool of Management\nTimes School of Media\nSchool of Law\nSchool of Design",
+        "keywords": ["schools", "departments", "academic schools", "faculties"]
     },
     {
         "question": "Is ABC a multidisciplinary university?",
-        "answer": "Yes, ABC University is a multi-disciplinary university, wherein students from one school can opt for specializations, open electives, professional electives, minors, honors, and audit courses from another school."
+        "answer": "Yes, ABC University is a multi-disciplinary university, wherein students from one school can opt for specializations, open electives, professional electives, minors, honors, and audit courses from another school.",
+        "keywords": ["multidisciplinary", "specializations", "electives", "cross-disciplinary"]
     },
     {
         "question": "What are the undergraduate programs available at ABC University?",
-        "answer": "The undergraduate programs available across eight schools are:\nB.Tech Artificial Intelligence\nB.Tech Computer Science Engineering\nB.Tech Electronics Engineering & Computing\nB.Tech Electronics Communication & Engineering\nB.Tech Mechanical Engineering\nB.Tech Engineering Physics\nB.Tech Biotechnology\nB.Tech M.Tech Biotech Integrated\nBCA\nBBA\nMBA Integrated\nB.A. Liberal Arts\nB.A. Mass Communication\nB.A. Film, TV & Web Series\nB.A. LL.B. (Hons.)\nBBA LL.B (Hons.)\nBachelor of Design (B.Des.)"
+        "answer": "The undergraduate programs available across eight schools are:\nB.Tech Artificial Intelligence\nB.Tech Computer Science Engineering\nB.Tech Electronics Engineering & Computing\nB.Tech Electronics Communication & Engineering\nB.Tech Mechanical Engineering\nB.Tech Engineering Physics\nB.Tech Biotechnology\nB.Tech M.Tech Biotech Integrated\nBCA\nBBA\nMBA Integrated\nB.A. Liberal Arts\nB.A. Mass Communication\nB.A. Film, TV & Web Series\nB.A. LL.B. (Hons.)\nBBA LL.B (Hons.)\nBachelor of Design (B.Des.)",
+        "keywords": ["undergraduate programs", "B.Tech", "BBA", "BCA", "bachelor's degrees"]
     },
     {
         "question": "What are the postgraduate and Ph.D programs available at ABC University?",
-        "answer": "The postgraduate programs available across eight schools are\nLL.M.\nM.A. Mass Communication\nMBA\nMCA\nM.Tech in Computer Science Engg\nM.Tech + Ph.D. (Computer Science Engineering -Integrated)\nPG Diploma:\nPG Diploma in TV & Digital Journalism\nPG Diploma in Computer Science Engineering\nPG Diploma in Computer Application\nPG Certificate Course:\nComputer Science Engineering\nComputer Application\nPh.D. programs are available in all schools except School of Design."
+        "answer": "The postgraduate programs available across eight schools are:\nLL.M.\nM.A. Mass Communication\nMBA\nMCA\nM.Tech in Computer Science Engg\nM.Tech + Ph.D. (Computer Science Engineering -Integrated)\nPG Diploma:\nPG Diploma in TV & Digital Journalism\nPG Diploma in Computer Science Engineering\nPG Diploma in Computer Application\nPG Certificate Course:\nComputer Science Engineering\nComputer Application\nPh.D. programs are available in all schools except School of Design.",
+        "keywords": ["postgraduate programs", "Ph.D programs", "LL.M", "M.Tech", "master's degrees"]
     },
     {
-        "question": "What is the support available to students intending to pursue Ph.D ?",
-        "answer": "Financial support is provided to all full-time Ph.D. scholars in the form of Ph.D. assistantships, subject to certain terms and conditions laid down by the University. The support falls under 2 slabs: Slab 1. INR 25,000/- Slab 2. INR 40,000/-. To know more, contact admissions team. Toll Free No. 1800 103 XXXX or WhatsApp +91-886030XXXX."
+        "question": "What is the support available to students intending to pursue Ph.D?",
+        "answer": "Financial support is provided to all full-time Ph.D. scholars in the form of Ph.D. assistantships, subject to certain terms and conditions laid down by the University. The support falls under 2 slabs: Slab 1. INR 25,000/- Slab 2. INR 40,000/-. To know more, contact the admissions team. Toll Free No. 1800 103 XXXX or WhatsApp +91-886030XXXX.",
+        "keywords": ["Ph.D support", "financial assistance", "Ph.D assistantships", "funding for Ph.D"]
     },
     {
         "question": "What is unique about the curricula followed at the University?",
-        "answer": "The curriculum at ABC University is designed to address local, national, regional, and global developmental needs while providing a holistic and forward-thinking education. It is continually updated to meet the evolving demands of academia, industry, and society. To ensure its relevance, the university regularly convenes meetings of the Board of Studies, which includes experts from both academia and industry. This dynamic approach ensures that our curriculum remains aligned with the latest trends and prepares students for the future."
+        "answer": "The curriculum at ABC University is designed to address local, national, regional, and global developmental needs while providing a holistic and forward-thinking education. It is continually updated to meet the evolving demands of academia, industry, and society. To ensure its relevance, the university regularly convenes meetings of the Board of Studies, which includes experts from both academia and industry. This dynamic approach ensures that our curriculum remains aligned with the latest trends and prepares students for the future.",
+        "keywords": ["curriculum", "unique curriculum", "academic programs", "course structure"]
     },
     {
         "question": "What distinguishes the teaching faculty at the university?",
-        "answer": "90% of our faculty members hold Ph.D. degrees and come from prestigious institutions, including IITs, IIMs, NLUs, and other renowned national and international universities. The presence of Research Chair Professorships and esteemed Academic Advisory Board members plays a crucial role in shaping the intellectual and scholarly environment of the university, contributing significantly to its academic excellence."
+        "answer": "90% of our faculty members hold Ph.D. degrees and come from prestigious institutions, including IITs, IIMs, NLUs, and other renowned national and international universities. The presence of Research Chair Professorships and esteemed Academic Advisory Board members plays a crucial role in shaping the intellectual and scholarly environment of the university, contributing significantly to its academic excellence.",
+        "keywords": ["faculty", "teaching staff", "academic excellence", "professors"]
     },
     {
         "question": "How does ABC University ensure industry support for its programs?",
-        "answer": "ABC University is dedicated to building strong collaborations with industry leaders to offer hands-on training, research opportunities, and exposure to cutting-edge technologies such as AI, Big Data, and Cloud Computing. Through strategic partnerships with renowned industry players like ServiceNow, Infosys, Grant Thornton, Xebia, and others, the University provides valuable training, internships, and certification programs.\nFurthermore, BU benefits from the guidance of its Industry Advisory Board, which comprises over 30 CEOs and CXOs. This board plays an active role in shaping the curriculum, enhancing internship and placement opportunities, supporting live projects, and ensuring that industry best practices are integrated into the academic experience."
+        "answer": "ABC University is dedicated to building strong collaborations with industry leaders to offer hands-on training, research opportunities, and exposure to cutting-edge technologies such as AI, Big Data, and Cloud Computing. Through strategic partnerships with renowned industry players like ServiceNow, Infosys, Grant Thornton, Xebia, and others, the University provides valuable training, internships, and certification programs.\nFurthermore, BU benefits from the guidance of its Industry Advisory Board, which comprises over 30 CEOs and CXOs. This board plays an active role in shaping the curriculum, enhancing internship and placement opportunities, supporting live projects, and ensuring that industry best practices are integrated into the academic experience.",
+        "keywords": ["industry support", "collaborations", "internships", "industry partnerships"]
     },
     {
         "question": "Do programs have the support of the industry?",
-        "answer": "ABC University focuses on providing industry exposure to all its students. To strengthen the industry experience of students, the university has agreements and understandings with various organisations. It also has strong ties with industry bodies such as FICCI, CII, TIE, IEEE, ACM, Geek for Geeks among others. The University also has an Industry Advisory Board comprising renowned industry leaders of the world."
+        "answer": "ABC University focuses on providing industry exposure to all its students. To strengthen the industry experience of students, the university has agreements and understandings with various organisations. It also has strong ties with industry bodies such as FICCI, CII, TIE, IEEE, ACM, Geek for Geeks among others. The University also has an Industry Advisory Board comprising renowned industry leaders of the world.",
+        "keywords": ["industry exposure", "program support", "industry ties", "industry collaboration"]
     },
     {
         "question": "What are the study facilities and support infra that ABC University offers to its students?",
-        "answer": "ABC University offers world-class study facilities and state-of-the-art infrastructure, making it one of the top institutions in India. Key features include:\nSpacious, air-conditioned digital classrooms to foster an interactive and engaging learning environment. Classrooms are equipped for presentations, videos, and live exercises.\n121+ dedicated high-end teaching and research labs partnered with leading global brands like Dell, Amazon, Microsoft, Cisco, Apple, and others, providing students with hands-on learning experiences.\nAesthetically designed Moot Court that offers students practical exposure to courtroom proceedings.\nTV and Radio Studios developed in collaboration with Times Now and Radio Mirchi engineers, along with two OB Vans, facilitating experiential learning for media students.\nDedicated Law Library and two Central Libraries equipped with e-learning resources, supporting extensive reading and research opportunities.\nThese facilities ensure that students receive an enriching and practical academic experience, preparing them for success in their respective fields."
+        "answer": "ABC University offers world-class study facilities and state-of-the-art infrastructure, making it one of the top institutions in India. Key features include:\nSpacious, air-conditioned digital classrooms to foster an interactive and engaging learning environment. Classrooms are equipped for presentations, videos, and live exercises.\n121+ dedicated high-end teaching and research labs partnered with leading global brands like Dell, Amazon, Microsoft, Cisco, Apple, and others, providing students with hands-on learning experiences.\nAesthetically designed Moot Court that offers students practical exposure to courtroom proceedings.\nTV and Radio Studios developed in collaboration with Times Now and Radio Mirchi engineers, along with two OB Vans, facilitating experiential learning for media students.\nDedicated Law Library and two Central Libraries equipped with e-learning resources, supporting extensive reading and research opportunities.\nThese facilities ensure that students receive an enriching and practical academic experience, preparing them for success in their respective fields.",
+        "keywords": ["study facilities", "infrastructure", "learning environment", "campus facilities"]
     },
     {
         "question": "Does ABC University offer placement and internship opportunities to its students?",
-        "answer": "ABC University is committed to making its students career-ready for the New Age economy. The Career Services office plays a key role in supporting and guiding deserving students in securing suitable placements and internships. Through the ABC Finishing School, the university offers comprehensive Employability Enhancement Trainings, including Soft Skills, Life Skills, and Technical Skills development. Additionally, the university provides Recruiter-Specific Trainings and in-house coaching for higher studies and competitive exams such as GRE, GMAT, CAT, and others. These initiatives ensure that students are well-prepared for successful careers."
+        "answer": "ABC University is committed to making its students career-ready for the New Age economy. The Career Services office plays a key role in supporting and guiding deserving students in securing suitable placements and internships. Through the ABC Finishing School, the university offers comprehensive Employability Enhancement Trainings, including Soft Skills, Life Skills, and Technical Skills development. Additionally, the university provides Recruiter-Specific Trainings and in-house coaching for higher studies and competitive exams such as GRE, GMAT, CAT, and others. These initiatives ensure that students are well-prepared for successful careers.",
+        "keywords": ["placement opportunities", "internships", "career services", "job placements"]
     },
     {
         "question": "What opportunities does ABC University provide for aspiring entrepreneurs and student innovators?",
-        "answer": "Yes, ABC University provides a range of opportunities for aspiring entrepreneurs, including the ABC Hatchery incubator, which has launched over 50 start-ups. Students benefit from 1-1 mentoring with entrepreneurs, coaches, and investors, entrepreneurship courses integrated into all programs, and direct connections to investors, customers, and partners. Additionally, students receive training on world-class start-up methodologies to prepare them for the challenges of the business world."
+        "answer": "Yes, ABC University provides a range of opportunities for aspiring entrepreneurs, including the ABC Hatchery incubator, which has launched over 50 start-ups. Students benefit from 1-1 mentoring with entrepreneurs, coaches, and investors, entrepreneurship courses integrated into all programs, and direct connections to investors, customers, and partners. Additionally, students receive training on world-class start-up methodologies to prepare them for the challenges of the business world.",
+        "keywords": ["entrepreneurship", "start-up incubator", "student innovators", "business opportunities"]
     },
     {
         "question": "What is the fee structure for students enrolled in programs at ABC University?",
-        "answer": "The fee structure varies for each program. For detailed information, please visit Fee Structure."
+        "answer": "The fee structure varies for each program. For detailed information, please visit Fee Structure.",
+        "keywords": ["fee structure", "tuition fees", "program fees", "cost of study"]
     },
     {
-        "question": "Does university has any online fee payment portal?",
-        "answer": "Yes, ABC University has a streamlined online fee payment process for each Annual Academic Session, please visit Online Payment"
+        "question": "Does the university have any online fee payment portal?",
+        "answer": "Yes, ABC University has a streamlined online fee payment process for each Annual Academic Session, please visit Online Payment.",
+        "keywords": ["online payment", "fee payment portal", "tuition payment", "pay fees online"]
     },
     {
         "question": "Can students aspiring to study at ABC University avail a bank loan?",
-        "answer": "Yes, the university has partnered with Credence, ICICI Bank, Bank of Baroda, and Axis Bank to assist students in obtaining education loans. For more information, please visit: Education Loan"
+        "answer": "Yes, the university has partnered with Credence, ICICI Bank, Bank of Baroda, and Axis Bank to assist students in obtaining education loans. For more information, please visit: Education Loan.",
+        "keywords": ["bank loan", "education loan", "financial assistance", "loan options"]
     },
     {
         "question": "Are deserving students eligible for scholarships?",
-        "answer": "Yes, deserving students are eligible for both academic and merit-based scholarships. Scholarships are awarded on a first-come, first-served basis, subject to availability. For more details, please visit Scholarships."
+        "answer": "Yes, deserving students are eligible for both academic and merit-based scholarships. Scholarships are awarded on a first-come, first-served basis, subject to availability. For more details, please visit Scholarships.",
+        "keywords": ["scholarships", "financial aid", "merit-based scholarships", "scholarship opportunities"]
     },
     {
         "question": "How do day scholars commute to ABC University?",
-        "answer": "ABC University provides transportation services for day scholars, including pick-up and drop-off facilities along pre-decided routes at designated times. These services are chargeable. For detailed information about the routes and charges, please visit Transportation Facility"
+        "answer": "ABC University provides transportation services for day scholars, including pick-up and drop-off facilities along pre-decided routes at designated times. These services are chargeable. For detailed information about the routes and charges, please visit Transportation Facility.",
+        "keywords": ["commute", "transportation services", "day scholars", "transport options"]
     },
     {
         "question": "Are anti-ragging and sexual harassment measures in place on campus?",
-        "answer": "Ragging and sexual harassment in any form are strictly prohibited on campus. Both are considered criminal offenses as per the University’s policy."
+        "answer": "Ragging and sexual harassment in any form are strictly prohibited on campus. Both are considered criminal offenses as per the University’s policy.",
+        "keywords": ["anti-ragging", "sexual harassment", "campus safety", "safety measures"]
     },
     {
         "question": "What are the popular student events that take place on campus?",
-        "answer": "ABC University organizes several popular events, including Bluemoon (Fresher’s Night), Uphoria (Cultural Youth Festival), Zenevia (Tech Fest), Sportikon (Sports Fest), Converge (Alumni Meet), Welcome Week (for Freshers), and Convocation. In addition, students can participate in a variety of activities such as poetry events, quizzes, debates, dance performances, live music, festivals, hackathons, tech events, and concerts, providing an engaging and interactive platform for learning and networking."
+        "answer": "ABC University organizes several popular events, including Bluemoon (Fresher’s Night), Uphoria (Cultural Youth Festival), Zenevia (Tech Fest), Sportikon (Sports Fest), Converge (Alumni Meet), Welcome Week (for Freshers), and Convocation. In addition, students can participate in a variety of activities such as poetry events, quizzes, debates, dance performances, live music, festivals, hackathons, tech events, and concerts, providing an engaging and interactive platform for learning and networking.",
+        "keywords": ["student events", "campus activities", "festivals", "university events"]
     },
     {
         "question": "What types of hostel rooms and living facilities are available to the boarders at ABC University?",
-        "answer": "ABC University offers separate hostels for girls and boys, with a capacity to accommodate over 10,000 students. The hostels feature twin and triple-sharing rooms and essential amenities such as air conditioning, comfortable beds, cupboards, study tables, access to hot water year-round, laundry services, and common entertainment rooms. The residential environment is further enhanced by a Wellness Centre, Pharmacy, Tuck Shop, and Salons. Additionally, students have access to a spacious 36,000 sq. ft. two-level dining hall."
+        "answer": "ABC University offers separate hostels for girls and boys, with a capacity to accommodate over 10,000 students. The hostels feature twin and triple-sharing rooms and essential amenities such as air conditioning, comfortable beds, cupboards, study tables, access to hot water year-round, laundry services, and common entertainment rooms. The residential environment is further enhanced by a Wellness Centre, Pharmacy, Tuck Shop, and Salons. Additionally, students have access to a spacious 36,000 sq. ft. two-level dining hall.",
+        "keywords": ["hostel facilities", "living arrangements", "accommodation", "boarding options"]
     },
     {
         "question": "Will I get free Wi-Fi?",
-        "answer": "Yes, ABC University provides students with access to unlimited Wi-Fi throughout the entire campus."
+        "answer": "Yes, ABC University provides students with access to unlimited Wi-Fi throughout the entire campus.",
+        "keywords": ["free Wi-Fi", "internet access", "campus facilities", "Wi-Fi availability"]
     },
     {
         "question": "What kind of food is served in the University cafeteria?",
-        "answer": "The university mess offers vegetarian food four times a day, including on weekends and holidays. For more variety, ABC University also has a large 5,775 sq. ft. multi-cuisine cafeteria, offering both vegetarian and non-vegetarian options. The cafeteria has been certified as an Eat Right Campus by the Food Safety and Standards Authority of India (FSSAI)."
+        "answer": "The university mess offers vegetarian food four times a day, including on weekends and holidays. For more variety, ABC University also has a large 5,775 sq. ft. multi-cuisine cafeteria, offering both vegetarian and non-vegetarian options. The cafeteria has been certified as an Eat Right Campus by the Food Safety and Standards Authority of India (FSSAI).",
+        "keywords": ["cafeteria", "food options", "meal services", "dining options"]
     },
     {
         "question": "What is the sports facility available on campus?",
-        "answer": "ABC University is the first university to introduce 10 Pickleball courts and 2 Padel Tennis courts. The university also features a well-equipped, modern sports complex with 16+ recreational courts, including a Swimming Pool, Tennis Courts, Football Ground, Cricket Field, Volleyball Court, Air-conditioned indoor Basketball, Badminton, and Squash Courts."
+        "answer": "ABC University is the first university to introduce 10 Pickleball courts and 2 Padel Tennis courts. The university also features a well-equipped, modern sports complex with 16+ recreational courts, including a Swimming Pool, Tennis Courts, Football Ground, Cricket Field, Volleyball Court, Air-conditioned indoor Basketball, Badminton, and Squash Courts.",
+        "keywords": ["sports facilities", "recreational activities", "athletic facilities", "sports complex"]
     },
     {
         "question": "Is there a hospital on the campus?",
-        "answer": "Yes, the University has a Health and Wellness Centre, staffed by a dedicated doctor and healthcare professionals. An ambulance is available 24/7 for medical emergencies, and first-level medical assistance is provided on campus. In addition, the university has formal tie-ups with Kailash Hospital, Greater Noida, and Yatharth Hospital, Greater Noida and Noida. The empaneled hospitals include:\nYatharth Wellness Hospital & Trauma Centre – Omega-I, Greater Noida\nYatharth Wellness Hospital & Heart Centre – Sector-110, Noida\nYatharth Super Speciality Hospital – Sector-1, Greater Noida"
+        "answer": "Yes, the University has a Health and Wellness Centre, staffed by a dedicated doctor and healthcare professionals. An ambulance is available 24/7 for medical emergencies, and first-level medical assistance is provided on campus. In addition, the university has formal tie-ups with Kailash Hospital, Greater Noida, and Yatharth Hospital, Greater Noida and Noida. The empaneled hospitals include:\nYatharth Wellness Hospital & Trauma Centre – Omega-I, Greater Noida\nYatharth Wellness Hospital & Heart Centre – Sector-110, Noida\nYatharth Super Speciality Hospital – Sector-1, Greater Noida.",
+        "keywords": ["health services", "medical facilities", "hospital", "healthcare"]
     },
     {
         "question": "Are ABC University degrees recognized nationally and internationally?",
-        "answer": "Yes, the degrees awarded by ABC University are equivalent to those offered by any recognized university globally, ensuring recognition both nationally and internationally."
-    }
+        "answer": "Yes, the degrees awarded by ABC University are equivalent to those offered by any recognized university globally, ensuring recognition both nationally and internationally.",
+        "keywords": ["degree recognition", "national recognition", "international recognition", "accreditation"]
+    },
+    {
+        "question": "What are the admission requirements for international students?",
+        "answer": "International students must meet specific admission requirements, including proof of previous education, English language proficiency, and visa documentation. For detailed information, please visit the International Admissions page.",
+        "keywords": ["international students", "admission requirements", "foreign students", "international admissions"]
+    },
+    {
+        "question": "What scholarships are available for international students?",
+        "answer": "ABC University offers various scholarships for international students based on merit and need. For more information, please visit the Scholarships page.",
+        "keywords": ["international scholarships", "scholarships for foreign students", "financial aid for international students"]
+    },
+    {
+        "question": "What extracurricular activities are available at ABC University?",
+        "answer": "ABC University offers a wide range of extracurricular activities, including sports, cultural clubs, student organizations, and volunteer opportunities. Students are encouraged to participate in various events and activities to enhance their university experience.",
+        "keywords": ["extracurricular activities", "student clubs", "sports", "cultural events"]
+    },
+    {
+        "question": "How can I apply for a student loan?",
+        "answer": "Students can apply for a student loan through our partnered banks. For more information on the application process and eligibility, please visit the Education Loan page.",
+        "keywords": ["student loan", "apply for loan", "financial assistance", "education loan"]
+    },
+    {
+        "question": "What is the process for transferring to ABC University?",
+        "answer": "Students wishing to transfer to ABC University must submit a transfer application along with their academic transcripts and other required documents. For detailed information, please visit the Transfer Students page.",
+        "keywords": ["transfer process", "transferring to ABC University", "transfer application", "credit transfer"]
+    },
+    {
+        "question": "What support services are available for students with disabilities?",
+        "answer": "ABC University is committed to providing support services for students with disabilities, including academic accommodations, counseling, and accessibility services. For more information, please visit the Disability Services page.",
+        "keywords": ["disability support", "accessibility services", "students with disabilities", "accommodations"]
+    },
+    {
+        "question": "How can I get involved in research at ABC University?",
+        "answer": "Students interested in research can connect with faculty members in their respective fields. The university also offers research assistantships and opportunities to participate in ongoing projects. For more information, please visit the Research Opportunities page.",
+        "keywords": ["research opportunities", "get involved in research", "research assistantships", "student research"]
+    },
+    {
+        "question": "What is the campus safety policy?",
+        "answer": "ABC University prioritizes the safety and security of its students. The campus safety policy includes measures such as 24/7 security personnel, emergency response protocols, and safety awareness programs. For more details, please visit the Campus Safety page.",
+        "keywords": ["campus safety", "safety policy", "security measures", "student safety"]
+    },
     
-
-]
+        {
+            "question": "What are the core subjects in a Bachelor of Engineering program?",
+            "answer": "Core subjects typically include Mathematics, Physics, Chemistry, and specific engineering courses related to the chosen discipline.",
+            "keywords": ["Bachelor of Engineering", "core subjects", "engineering courses"]
+        },
+        {
+            "question": "What specializations are available in Mechanical Engineering?",
+            "answer": "Specializations may include Thermodynamics, Robotics, Manufacturing, and Automotive Engineering.",
+            "keywords": ["Mechanical Engineering", "specializations", "engineering fields"]
+        },
+        {
+            "question": "How can I apply for a Master's in Civil Engineering?",
+            "answer": "You can apply through the university's graduate admissions portal, typically requiring a bachelor's degree in engineering and relevant documents.",
+            "keywords": ["Master's in Civil Engineering", "apply", "graduate admissions"]
+        },
+        {
+            "question": "What are the career prospects for graduates in Electrical Engineering?",
+            "answer": "Graduates can work in various fields such as telecommunications, power generation, and electronics design.",
+            "keywords": ["Electrical Engineering", "career prospects", "job opportunities"]
+        },
+        {
+            "question": "Are there any internships available for Engineering students?",
+            "answer": "Yes, many companies offer internships for engineering students, and the university's career services can assist in finding opportunities.",
+            "keywords": ["internships", "Engineering students", "career services"]
+        },
+        {
+            "question": "What programming languages should I learn for a Computer Science degree?",
+            "answer": "Common programming languages include Python, Java, C++, and JavaScript.",
+            "keywords": ["programming languages", "Computer Science", "coding"]
+        },
+        {
+            "question": "What are the differences between a B.Sc. in Computer Science and a B.Tech in Computer Engineering?",
+            "answer": "A B.Sc. focuses more on theoretical aspects, while a B.Tech emphasizes practical applications and engineering principles.",
+            "keywords": ["B.Sc. Computer Science", "B.Tech Computer Engineering", "degree differences"]
+        },
+        {
+            "question": "How can I get involved in research in Artificial Intelligence?",
+            "answer": "You can connect with faculty members who specialize in AI and inquire about research assistant positions or projects.",
+            "keywords": ["research", "Artificial Intelligence", "AI projects"]
+        },
+        {
+            "question": "What are the prerequisites for a Master's in Data Science?",
+            "answer": "Prerequisites typically include a background in statistics, programming, and data analysis.",
+            "keywords": ["Master's in Data Science", "prerequisites", "data analysis"]
+        },
+        {
+            "question": "What certifications are recommended for aspiring Software Developers?",
+            "answer": "Certifications such as AWS Certified Developer, Microsoft Certified: Azure Developer Associate, and CompTIA Security+ are beneficial.",
+            "keywords": ["certifications", "Software Developers", "professional development"]
+        },
+        {
+            "question": "What are the key components of an MBA program?",
+            "answer": "Key components include core courses in finance, marketing, operations, and strategic management, along with electives and practical projects.",
+            "keywords": ["MBA program", "core courses", "business administration"]
+        },
+        {
+            "question": "How can I specialize in Marketing during my Business degree?",
+            "answer": "You can choose marketing electives and participate in marketing-related projects and internships.",
+            "keywords": ["specialize in Marketing", "Business degree", "marketing electives"]
+        },
+        {
+            "question": "What are the benefits of pursuing a Ph.D. in Management?",
+            "answer": "Benefits include advanced research skills, teaching opportunities, and the ability to influence business practices.",
+            "keywords": ["Ph.D. in Management", "benefits", "advanced research"]
+        },
+        {
+            "question": "What internships are available for Business students?",
+            "answer": "Internships are available in various sectors, including finance, marketing, consulting, and human resources.",
+            "keywords": ["internships", "Business students", "career opportunities"]
+        },
+        {
+            "question": "How does the university support entrepreneurship among students?",
+            "answer": "The university offers entrepreneurship courses, mentorship programs, and access to incubators and funding opportunities.",
+            "keywords": ["entrepreneurship", "support", "mentorship programs"]
+        },
+        {
+            "question": "What are the admission requirements for a Nursing program?",
+            "answer": "Admission requirements typically include a high school diploma, prerequisite courses, and passing an entrance exam.",
+            "keywords": ["Nursing program", "admission requirements", "entrance exam"]
+        },
+        {
+            "question": "How long does it take to complete a Doctor of Medicine (MD) degree?",
+            "answer": "It typically takes four years to complete an MD degree, followed by residency training.",
+            "keywords": ["Doctor of Medicine", "MD degree", "duration"]
+        },
+        {
+            "question": "What specializations are available in Public Health?",
+            "answer": "Specializations may include Epidemiology, Health Policy, Environmental Health, and Global Health.",
+            "keywords": ["Public Health", "specializations", "Epidemiology"]
+        },
+        {
+            "question": "Are there any scholarships for students pursuing a degree in Pharmacy?",
+            "answer": "Yes, various scholarships are available based on merit and financial need. Check the university's scholarship page for details.",
+            "keywords": ["scholarships", "Pharmacy degree", "financial aid"]
+        },
+        {
+            "question": "What is the process for becoming a licensed physician after graduation?",
+            "answer": "After graduation, you must complete a residency program and pass the licensing exams in your country.",
+            "keywords": ["licensed physician", "graduation", "residency program"]
+        },
+        {
+            "question": "What are the major areas of study in a Bachelor of Arts program?",
+            "answer": "Major areas include Humanities, Social Sciences, Fine Arts, and Communication.",
+            "keywords": ["Bachelor of Arts", "areas of study", "Humanities"]
+        },
+        {
+            "question": "How can I pursue a career in Graphic Design?",
+            "answer": "You can pursue a degree in Graphic Design and build a portfolio of your work to showcase your skills.",
+            "keywords": ["Graphic Design", "career", "portfolio"]
+        },
+        {
+            "question": "What are the benefits of studying History at the university level?",
+            "answer": "Studying History enhances critical thinking, research skills, and understanding of cultural contexts.",
+            "keywords": ["studying History", "benefits", "critical thinking"]
+        },
+        {
+            "question": "Are there opportunities for internships in the field of Journalism?",
+            "answer": "Yes, many media organizations offer internships for journalism students to gain practical experience.",
+            "keywords": ["internships", "Journalism", "media organizations"]
+        },
+        {
+            "question": "What is the process for applying to a Master's in Fine Arts?",
+            "answer": "The application process typically includes submitting a portfolio, letters of recommendation, and a personal statement.",
+            "keywords": ["Master's in Fine Arts", "application process", "portfolio"]
+        },
+        {
+            "question": "What are the core subjects in a Sociology degree?",
+            "answer": "Core subjects often include Social Theory, Research Methods, and various electives related to social issues.",
+            "keywords": ["Sociology degree", "core subjects", "Social Theory"]
+        },
+        {
+            "question": "How can I specialize in International Relations?",
+            "answer": "You can choose electives in International Relations and participate in related internships or projects.",
+            "keywords": ["specialize in International Relations", "electives", "internships"]
+        },
+        {
+            "question": "What research opportunities are available for Psychology students?",
+            "answer": "Psychology students can participate in faculty-led research projects or conduct their own under supervision.",
+            "keywords": ["Psychology", "research opportunities", "faculty-led projects"]
+        },
+        {
+            "question": "What are the career paths for graduates in Political Science?",
+            "answer": "Graduates can pursue careers in government, non-profit organizations, international relations, and academia.",
+            "keywords": ["Political Science", "career paths", "government jobs"]
+        },
+        {
+            "question": "How does the university support students in Social Work programs?",
+            "answer": "The university provides field placements, mentorship, and access to resources for Social Work students.",
+            "keywords": ["Social Work", "support", "field placements"]
+        },
+        {
+            "question": "What are the prerequisites for a Bachelor’s in Biology?",
+            "answer": "Prerequisites typically include high school courses in Biology, Chemistry, and Mathematics.",
+            "keywords": ["Bachelor's in Biology", "prerequisites", "high school courses"]
+        },
+        {
+            "question": "How can I get involved in research in Environmental Science?",
+            "answer": "Students can connect with faculty members and participate in ongoing research projects related to environmental issues.",
+            "keywords": ["Environmental Science", "research", "faculty members"]
+        },
+        {
+            "question": "What are the career options for graduates in Chemistry?",
+            "answer": "Graduates can work in pharmaceuticals, environmental science, education, and research.",
+            "keywords": ["Chemistry", "career options", "pharmaceuticals"]
+        },
+        {
+            "question": "Are there any fieldwork opportunities in Geology programs?",
+            "answer": "Yes, many Geology programs include fieldwork as part of the curriculum to provide hands-on experience.",
+            "keywords": ["Geology", "fieldwork", "hands-on experience"]
+        },
+        {
+            "question": "What is the process for becoming a certified teacher?",
+            "answer": "To become a certified teacher, you typically need to complete a degree in education and pass the required certification exams.",
+            "keywords": ["certified teacher", "process", "education degree"]
+        },
+        {
+            "question": "How can I specialize in Special Education?",
+            "answer": "You can specialize in Special Education by taking specific courses and gaining experience through internships.",
+            "keywords": ["Special Education", "specialization", "internships"]
+        },
+        {
+            "question": "What are the benefits of pursuing a Master's in Educational Leadership?",
+            "answer": "Benefits include enhanced leadership skills, career advancement opportunities, and the ability to influence educational policy.",
+            "keywords": ["Master's in Educational Leadership", "benefits", "career advancement"]
+        },
+        {
+            "question": "Are there any internships available for Education students?",
+            "answer": "Yes, many schools and educational organizations offer internships for education students to gain practical experience.",
+            "keywords": ["internships", "Education students", "practical experience"]
+        },
+        {
+            "question": "What is the process for applying to a Ph.D. in Education?",
+            "answer": "The application process typically includes submitting transcripts, letters of recommendation, and a research proposal.",
+            "keywords": ["Ph.D. in Education", "application process", "research proposal"]
+        },
+        {
+            "question": "What are the core subjects in a Bachelor of Arts program?",
+            "answer": "Core subjects often include Humanities, Social Sciences, Fine Arts, and Communication.",
+            "keywords": ["Bachelor of Arts", "core subjects", "Humanities"]
+        },
+        {
+            "question": "How can I pursue a career in Graphic Design?",
+            "answer": "You can pursue a degree in Graphic Design and build a portfolio of your work to showcase your skills.",
+            "keywords": ["Graphic Design", "career", "portfolio"]
+        },
+        {
+            "question": "What are the benefits of studying History at the university level?",
+            "answer": "Studying History enhances critical thinking, research skills, and understanding of cultural contexts.",
+            "keywords": ["studying History", "benefits", "critical thinking"]
+        },
+        {
+            "question": "Are there opportunities for internships in the field of Journalism?",
+            "answer": "Yes, many media organizations offer internships for journalism students to gain practical experience.",
+            "keywords": ["internships", "Journalism", "media organizations"]
+        },
+        {
+            "question": "What is the process for applying to a Master's in Fine Arts?",
+            "answer": "The application process typically includes submitting a portfolio, letters of recommendation, and a personal statement.",
+            "keywords": ["Master's in Fine Arts", "application process", "portfolio"]
+        },
+        {
+            "question": "What are the core subjects in a Sociology degree?",
+            "answer": "Core subjects often include Social Theory, Research Methods, and various electives related to social issues.",
+            "keywords": ["Sociology degree", "core subjects", "Social Theory"]
+        },
+        {
+            "question": "How can I specialize in International Relations?",
+            "answer": "You can choose electives in International Relations and participate in related internships or projects.",
+            "keywords": ["specialize in International Relations", "electives", "internships"]
+        },
+        {
+            "question": "What research opportunities are available for Psychology students?",
+            "answer": "Psychology students can participate in faculty-led research projects or conduct their own under supervision.",
+            "keywords": ["Psychology", "research opportunities", "faculty-led projects"]
+        },
+        {
+            "question": "What are the career paths for graduates in Political Science?",
+            "answer": "Graduates can pursue careers in government, non-profit organizations, international relations, and academia.",
+            "keywords": ["Political Science", "career paths", "government jobs"]
+        },
+        {
+            "question": "How does the university support students in Social Work programs?",
+            "answer": "The university provides field placements, mentorship, and access to resources for Social Work students.",
+            "keywords": ["Social Work", "support", "field placements"]
+        },
+        {
+            "question": "What are the prerequisites for a Bachelor’s in Biology?",
+            "answer": "Prerequisites typically include high school courses in Biology, Chemistry, and Mathematics.",
+            "keywords": ["Bachelor's in Biology", "prerequisites", "high school courses"]
+        },
+        {
+            "question": "How can I get involved in research in Environmental Science?",
+            "answer": "Students can connect with faculty members and participate in ongoing research projects related to environmental issues.",
+            "keywords": ["Environmental Science", "research", "faculty members"]
+        },
+        {
+            "question": "What are the career options for graduates in Chemistry?",
+            "answer": "Graduates can work in pharmaceuticals, environmental science, education, and research.",
+            "keywords": ["Chemistry", "career options", "pharmaceuticals"]
+        },
+        {
+            "question": "Are there any fieldwork opportunities in Geology programs?",
+            "answer": "Yes, many Geology programs include fieldwork as part of the curriculum to provide hands-on experience.",
+            "keywords": ["Geology", "fieldwork", "hands-on experience"]
+        },
+        {
+            "question": "What is the process for becoming a certified teacher?",
+            "answer": "To become a certified teacher, you typically need to complete a degree in education and pass the required certification exams.",
+            "keywords": ["certified teacher", "process", "education degree"]
+        }
+    ]
