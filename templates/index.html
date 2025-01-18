@@ -151,53 +151,61 @@
   <script src="./app.js"></script>
   <script>
     $(document).ready(function() {
-      $('#chatbotButton').click(function() {
-        $('#chatbotModal').toggleClass('hidden');
-      });
-
-      $('#closeModal').click(function() {
-        $('#chatbotModal').addClass('hidden');
-      });
-
-      $('#sendButton').click(function() {
-        const userMessage = $('#inputField').val();
-        if (userMessage) {
-          $('#chatArea').append(`<div class="flex items-end justify-end space-x-2">
-            <div class="bg-gray-200 px-4 py-2 rounded-lg max-w-xs">
-              ${userMessage}
-            </div>
-          </div>`);
-          $('#inputField').val('');
-
-          $.ajax({
-            url: '/ask',
-            type: 'POST',
-            contentType: 'application/json',
-            data: JSON.stringify({ message: userMessage }),
-            success: function(response) {
-              $('#chatArea').append(`<div class="flex items-start space-x-2">
-            <div class="bg-blue-500 text-white px-4 py-2 rounded-lg max-w-xs">
-              ${response.answer}
-            </div>
-          </div>`);
-            },
-            error: function() {
-              $('#chatArea').append(`<div class="flex items-start space-x-2">
-            <div class="bg-blue-500 text-white px-4 py-2 rounded-lg max-w-xs">
-              Sorry I couldn't find any answer
-            </div>
-          </div>`);
-            }
-          });
+        $('#chatbotButton').click(function() {
+          $('#chatbotModal').toggleClass('hidden');
+        });
+      
+        $('#closeModal').click(function() {
+          $('#chatbotModal').addClass('hidden');
+        });
+      
+        function scrollToBottom() {
+          const chatArea = $('#chatArea');
+          chatArea.scrollTop(chatArea[0].scrollHeight);
         }
+      
+        $('#sendButton').click(function() {
+          const userMessage = $('#inputField').val();
+          if (userMessage) {
+            $('#chatArea').append(`<div class="flex items-end justify-end space-x-2">
+              <div class="bg-gray-200 px-4 py-2 rounded-lg max-w-xs">
+                ${userMessage}
+              </div>
+            </div>`);
+            $('#inputField').val('');
+            scrollToBottom(); // Scroll to bottom after adding user message
+      
+            $.ajax({
+              url: '/ask',
+              type: 'POST',
+              contentType: 'application/json',
+              data: JSON.stringify({ message: userMessage }),
+              success: function(response) {
+                $('#chatArea').append(`<div class="flex items-start space-x-2">
+                  <div class="bg-blue-500 text-white px-4 py-2 rounded-lg max-w-xs">
+                    ${response.answer}
+                  </div>
+                </div>`);
+                scrollToBottom(); // Scroll to bottom after adding bot response
+              },
+              error: function() {
+                $('#chatArea').append(`<div class="flex items-start space-x-2">
+                  <div class="bg-blue-500 text-white px-4 py-2 rounded-lg max-w-xs">
+                    Sorry I couldn't find any answer
+                  </div>
+                </div>`);
+                scrollToBottom(); // Scroll to bottom after adding error message
+              }
+            });
+          }
+        });
+      
+        $('#inputField').keypress(function(e) {
+          if (e.which === 13) { // Enter key
+            $('#sendButton').click();
+          }
+        });
       });
-
-      $('#inputField').keypress(function(e) {
-        if (e.which === 13) { // Enter key
-          $('#sendButton').click();
-        }
-      });
-    });
   </script>
 </body>
 </html>
