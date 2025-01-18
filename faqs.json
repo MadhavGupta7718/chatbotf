@@ -1,15 +1,132 @@
 [
     {
-        "question": "What are the admission requirements?",
-        "answer": "The admission requirements include..."
+        "question": "What is the status of UGC recognition? Are all programs approved by UGC?",
+        "answer": "The university was established under Uttar Pradesh Act No. 24 of 2016 under Gazette notified by the Government of Uttar Pradesh Vide No 140X(2)/LXXIX-V- 1-1X- 1(Ka)- 25-20XX dated 16 September 20XX.As per the UGC letter dated 27th March 2018, ABC University was established by the Act of State Legislature of Uttar Pradesh as a private university and is empowered to award degrees as specified under section 22 of the UGC Act to the students studying in its main campus in regular mode with the approval of Statutory Bodies/Councils, wherever required."
     },
     {
-        "question": "What is the application deadline?",
-        "answer": "The application deadline is..."
+        "question": "When was ABC University established?",
+        "answer": "ABC University was established in August 2016."
     },
     {
-        "question": "Are there scholarships available?",
-        "answer": "Yes, we offer several scholarships..."
+        "question": "What is the application form fee?",
+        "answer": "The application form fee for domestic candidates is 1500 INR and for international candidates is 2000 INR. The application fee is non-refundable"
+    },
+    {
+        "question": "Does the university conduct real-time interactive sessions about the programs?",
+        "answer": "Yes, ABC University regularly hosts Open House sessions, providing an excellent opportunity to explore programs and university."
+    },
+    {
+        "question": "Once my admission is confirmed, can I withdraw from it?",
+        "answer": "Yes. ABC University follows the refund policy as laid by UGC. For more information, please refer to the official ABC University. For more information contact administrative office."
+    },
+    {
+        "question": "Whom do I contact for admission-related queries?",
+        "answer": "For Admission-related queries, you can contact Toll-Free at 1800103XXXX or WhatsApp: at 886030XXXX or contact our admission counsellors at regional offices across the country. For details, please visit Admission Counsellors"
+    },
+    {
+        "question": "Does ABC have regional offices for admission information if aspirants want to join from other states?",
+        "answer": "Yes, ABC University has regional offices and representatives across the country to help aspirants."
+    },
+    {
+        "question": "What are the various schools at the University?",
+        "answer": "School of Engineering & Applied Science\nSchool of Artificial Intelligence\nSchool of Computer Science Engineering & Technology\nSchool of Liberal Arts\nSchool of Management\nTimes School of Media\nSchool of Law\nSchool of Design"
+    },
+    {
+        "question": "Is ABC a multidisciplinary university?",
+        "answer": "Yes, ABC University is a multi-disciplinary university, wherein students from one school can opt for specializations, open electives, professional electives, minors, honors, and audit courses from another school."
+    },
+    {
+        "question": "What are the undergraduate programs available at ABC University?",
+        "answer": "The undergraduate programs available across eight schools are:\nB.Tech Artificial Intelligence\nB.Tech Computer Science Engineering\nB.Tech Electronics Engineering & Computing\nB.Tech Electronics Communication & Engineering\nB.Tech Mechanical Engineering\nB.Tech Engineering Physics\nB.Tech Biotechnology\nB.Tech M.Tech Biotech Integrated\nBCA\nBBA\nMBA Integrated\nB.A. Liberal Arts\nB.A. Mass Communication\nB.A. Film, TV & Web Series\nB.A. LL.B. (Hons.)\nBBA LL.B (Hons.)\nBachelor of Design (B.Des.)"
+    },
+    {
+        "question": "What are the postgraduate and Ph.D programs available at ABC University?",
+        "answer": "The postgraduate programs available across eight schools are\nLL.M.\nM.A. Mass Communication\nMBA\nMCA\nM.Tech in Computer Science Engg\nM.Tech + Ph.D. (Computer Science Engineering -Integrated)\nPG Diploma:\nPG Diploma in TV & Digital Journalism\nPG Diploma in Computer Science Engineering\nPG Diploma in Computer Application\nPG Certificate Course:\nComputer Science Engineering\nComputer Application\nPh.D. programs are available in all schools except School of Design."
+    },
+    {
+        "question": "What is the support available to students intending to pursue Ph.D ?",
+        "answer": "Financial support is provided to all full-time Ph.D. scholars in the form of Ph.D. assistantships, subject to certain terms and conditions laid down by the University. The support falls under 2 slabs: Slab 1. INR 25,000/- Slab 2. INR 40,000/-. To know more, contact admissions team. Toll Free No. 1800 103 XXXX or WhatsApp +91-886030XXXX."
+    },
+    {
+        "question": "What is unique about the curricula followed at the University?",
+        "answer": "The curriculum at ABC University is designed to address local, national, regional, and global developmental needs while providing a holistic and forward-thinking education. It is continually updated to meet the evolving demands of academia, industry, and society. To ensure its relevance, the university regularly convenes meetings of the Board of Studies, which includes experts from both academia and industry. This dynamic approach ensures that our curriculum remains aligned with the latest trends and prepares students for the future."
+    },
+    {
+        "question": "What distinguishes the teaching faculty at the university?",
+        "answer": "90% of our faculty members hold Ph.D. degrees and come from prestigious institutions, including IITs, IIMs, NLUs, and other renowned national and international universities. The presence of Research Chair Professorships and esteemed Academic Advisory Board members plays a crucial role in shaping the intellectual and scholarly environment of the university, contributing significantly to its academic excellence."
+    },
+    {
+        "question": "How does ABC University ensure industry support for its programs?",
+        "answer": "ABC University is dedicated to building strong collaborations with industry leaders to offer hands-on training, research opportunities, and exposure to cutting-edge technologies such as AI, Big Data, and Cloud Computing. Through strategic partnerships with renowned industry players like ServiceNow, Infosys, Grant Thornton, Xebia, and others, the University provides valuable training, internships, and certification programs.\nFurthermore, BU benefits from the guidance of its Industry Advisory Board, which comprises over 30 CEOs and CXOs. This board plays an active role in shaping the curriculum, enhancing internship and placement opportunities, supporting live projects, and ensuring that industry best practices are integrated into the academic experience."
+    },
+    {
+        "question": "Do programs have the support of the industry?",
+        "answer": "ABC University focuses on providing industry exposure to all its students. To strengthen the industry experience of students, the university has agreements and understandings with various organisations. It also has strong ties with industry bodies such as FICCI, CII, TIE, IEEE, ACM, Geek for Geeks among others. The University also has an Industry Advisory Board comprising renowned industry leaders of the world."
+    },
+    {
+        "question": "What are the study facilities and support infra that ABC University offers to its students?",
+        "answer": "ABC University offers world-class study facilities and state-of-the-art infrastructure, making it one of the top institutions in India. Key features include:\nSpacious, air-conditioned digital classrooms to foster an interactive and engaging learning environment. Classrooms are equipped for presentations, videos, and live exercises.\n121+ dedicated high-end teaching and research labs partnered with leading global brands like Dell, Amazon, Microsoft, Cisco, Apple, and others, providing students with hands-on learning experiences.\nAesthetically designed Moot Court that offers students practical exposure to courtroom proceedings.\nTV and Radio Studios developed in collaboration with Times Now and Radio Mirchi engineers, along with two OB Vans, facilitating experiential learning for media students.\nDedicated Law Library and two Central Libraries equipped with e-learning resources, supporting extensive reading and research opportunities.\nThese facilities ensure that students receive an enriching and practical academic experience, preparing them for success in their respective fields."
+    },
+    {
+        "question": "Does ABC University offer placement and internship opportunities to its students?",
+        "answer": "ABC University is committed to making its students career-ready for the New Age economy. The Career Services office plays a key role in supporting and guiding deserving students in securing suitable placements and internships. Through the ABC Finishing School, the university offers comprehensive Employability Enhancement Trainings, including Soft Skills, Life Skills, and Technical Skills development. Additionally, the university provides Recruiter-Specific Trainings and in-house coaching for higher studies and competitive exams such as GRE, GMAT, CAT, and others. These initiatives ensure that students are well-prepared for successful careers."
+    },
+    {
+        "question": "What opportunities does ABC University provide for aspiring entrepreneurs and student innovators?",
+        "answer": "Yes, ABC University provides a range of opportunities for aspiring entrepreneurs, including the ABC Hatchery incubator, which has launched over 50 start-ups. Students benefit from 1-1 mentoring with entrepreneurs, coaches, and investors, entrepreneurship courses integrated into all programs, and direct connections to investors, customers, and partners. Additionally, students receive training on world-class start-up methodologies to prepare them for the challenges of the business world."
+    },
+    {
+        "question": "What is the fee structure for students enrolled in programs at ABC University?",
+        "answer": "The fee structure varies for each program. For detailed information, please visit Fee Structure."
+    },
+    {
+        "question": "Does university has any online fee payment portal?",
+        "answer": "Yes, ABC University has a streamlined online fee payment process for each Annual Academic Session, please visit Online Payment"
+    },
+    {
+        "question": "Can students aspiring to study at ABC University avail a bank loan?",
+        "answer": "Yes, the university has partnered with Credence, ICICI Bank, Bank of Baroda, and Axis Bank to assist students in obtaining education loans. For more information, please visit: Education Loan"
+    },
+    {
+        "question": "Are deserving students eligible for scholarships?",
+        "answer": "Yes, deserving students are eligible for both academic and merit-based scholarships. Scholarships are awarded on a first-come, first-served basis, subject to availability. For more details, please visit Scholarships."
+    },
+    {
+        "question": "How do day scholars commute to ABC University?",
+        "answer": "ABC University provides transportation services for day scholars, including pick-up and drop-off facilities along pre-decided routes at designated times. These services are chargeable. For detailed information about the routes and charges, please visit Transportation Facility"
+    },
+    {
+        "question": "Are anti-ragging and sexual harassment measures in place on campus?",
+        "answer": "Ragging and sexual harassment in any form are strictly prohibited on campus. Both are considered criminal offenses as per the University’s policy."
+    },
+    {
+        "question": "What are the popular student events that take place on campus?",
+        "answer": "ABC University organizes several popular events, including Bluemoon (Fresher’s Night), Uphoria (Cultural Youth Festival), Zenevia (Tech Fest), Sportikon (Sports Fest), Converge (Alumni Meet), Welcome Week (for Freshers), and Convocation. In addition, students can participate in a variety of activities such as poetry events, quizzes, debates, dance performances, live music, festivals, hackathons, tech events, and concerts, providing an engaging and interactive platform for learning and networking."
+    },
+    {
+        "question": "What types of hostel rooms and living facilities are available to the boarders at ABC University?",
+        "answer": "ABC University offers separate hostels for girls and boys, with a capacity to accommodate over 10,000 students. The hostels feature twin and triple-sharing rooms and essential amenities such as air conditioning, comfortable beds, cupboards, study tables, access to hot water year-round, laundry services, and common entertainment rooms. The residential environment is further enhanced by a Wellness Centre, Pharmacy, Tuck Shop, and Salons. Additionally, students have access to a spacious 36,000 sq. ft. two-level dining hall."
+    },
+    {
+        "question": "Will I get free Wi-Fi?",
+        "answer": "Yes, ABC University provides students with access to unlimited Wi-Fi throughout the entire campus."
+    },
+    {
+        "question": "What kind of food is served in the University cafeteria?",
+        "answer": "The university mess offers vegetarian food four times a day, including on weekends and holidays. For more variety, ABC University also has a large 5,775 sq. ft. multi-cuisine cafeteria, offering both vegetarian and non-vegetarian options. The cafeteria has been certified as an Eat Right Campus by the Food Safety and Standards Authority of India (FSSAI)."
+    },
+    {
+        "question": "What is the sports facility available on campus?",
+        "answer": "ABC University is the first university to introduce 10 Pickleball courts and 2 Padel Tennis courts. The university also features a well-equipped, modern sports complex with 16+ recreational courts, including a Swimming Pool, Tennis Courts, Football Ground, Cricket Field, Volleyball Court, Air-conditioned indoor Basketball, Badminton, and Squash Courts."
+    },
+    {
+        "question": "Is there a hospital on the campus?",
+        "answer": "Yes, the University has a Health and Wellness Centre, staffed by a dedicated doctor and healthcare professionals. An ambulance is available 24/7 for medical emergencies, and first-level medical assistance is provided on campus. In addition, the university has formal tie-ups with Kailash Hospital, Greater Noida, and Yatharth Hospital, Greater Noida and Noida. The empaneled hospitals include:\nYatharth Wellness Hospital & Trauma Centre – Omega-I, Greater Noida\nYatharth Wellness Hospital & Heart Centre – Sector-110, Noida\nYatharth Super Speciality Hospital – Sector-1, Greater Noida"
+    },
+    {
+        "question": "Are ABC University degrees recognized nationally and internationally?",
+        "answer": "Yes, the degrees awarded by ABC University are equivalent to those offered by any recognized university globally, ensuring recognition both nationally and internationally."
     }
+    
 
 ]
