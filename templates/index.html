@@ -125,6 +125,12 @@
     <div id="chatArea" class="flex-1 p-4 overflow-y-auto space-y-4 bg-gray-50 bg-blue-800">
       <!-- Chat Messages -->
       <!-- Messages will be dynamically inserted here -->
+       <!-- Chat bot message -->
+       <div class="flex items-start space-x-2">
+        <div class="bg-blue-500 text-white px-4 py-2 rounded-lg max-w-xs">
+          Hello! How can I help you?
+        </div>
+      </div>
     </div>
   
     <!-- Chat Input -->
@@ -156,7 +162,11 @@
       $('#sendButton').click(function() {
         const userMessage = $('#inputField').val();
         if (userMessage) {
-          $('#chatArea').append(`<div class="user-message">${userMessage}</div>`);
+          $('#chatArea').append(`<div class="flex items-end justify-end space-x-2">
+            <div class="bg-gray-200 px-4 py-2 rounded-lg max-w-xs">
+              ${userMessage}
+            </div>
+          </div>`);
           $('#inputField').val('');
 
           $.ajax({
@@ -165,10 +175,18 @@
             contentType: 'application/json',
             data: JSON.stringify({ message: userMessage }),
             success: function(response) {
-              $('#chatArea').append(`<div class="bot-message">${response.answer}</div>`);
+              $('#chatArea').append(`<div class="flex items-start space-x-2">
+            <div class="bg-blue-500 text-white px-4 py-2 rounded-lg max-w-xs">
+              ${response.answer}
+            </div>
+          </div>`);
             },
             error: function() {
-              $('#chatArea').append(`<div class="bot-message">Sorry, I couldn't understand that.</div>`);
+              $('#chatArea').append(`<div class="flex items-start space-x-2">
+            <div class="bg-blue-500 text-white px-4 py-2 rounded-lg max-w-xs">
+              Sorry I couldn't find any answer
+            </div>
+          </div>`);
             }
           });
         }
